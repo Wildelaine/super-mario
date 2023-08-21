@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="shortcut icon" href="/01-projetos/01-projeto-mario/src/imagens/favicon.ico" type="image/x-icon">
+    <!-- FONTES: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video"  autoplay loop muted>
+            <source src="src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="#">
+            <img class="logo" src="src/imagens/logo-chapeu-mario.png" alt="Logo Chapéu Mário">
+        </a>
+        <nav >
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/imagens/titulo.png" alt="Imagem do Título do Filme">
+            <p class="descricao">Mario é um encanador junto com seu irmão luigi. Um dia, eles vão para no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </div>
+
+        <img class="mario" src="src/imagens/super-mario-chars.png" alt="">
+        
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal"> X </span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wkn-Gb-Fhac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
